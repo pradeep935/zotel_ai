@@ -1,0 +1,89 @@
+$theme_color: #2a469d;
+$theme_light: lighten($theme_color, 5);
+$theme_light2: lighten($theme_color, 30);
+
+.theme-btn {
+    background: #EEE;
+    border-radius: 5px;
+    border: none;
+    color: #555;
+    .small {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
+.attendance-mark {
+    text-align: center;
+    span {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 1px solid #EEE;
+        display: inline-block;
+        &.present {
+            background: #4caf50;
+        }
+
+        &.absent {
+            background: #f00;
+        }
+
+        &.leave {
+            background: #ffc107;
+        }&.cancel {
+            background: #6c757d;
+        }
+    }
+}
+
+.dpr-table {
+    td {
+        cursor: pointer;
+        &.active {
+            background: $theme_color;
+            color: #fff;
+        }
+    }
+}
+
+.exclaim {
+    color: #e91e63;
+}
+
+.main-item {
+    color: $theme_color;
+    font-size: 14px;
+    &.bold {
+        font-weight: bold;
+    }
+}
+
+.dpr-log-table {
+    td {
+        .qty {
+            text-align: center;
+            cursor: pointer;
+            font-weight: bold;
+            min-width: 50px;
+            span {
+                background: $theme_color;
+            }
+        }
+        &.present {
+            background: #92df95;
+        }
+        &.absent {
+            background: #fda7a7;   
+        }
+    }
+}
+
+.work-item-cont {
+    min-width: 150px;
+    .work-item {
+        background: #EEE;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 10px;
+    }
+}

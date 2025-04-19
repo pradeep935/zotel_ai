@@ -1,0 +1,1 @@
+<?php /**PATH /Applications/XAMPP/xamppfiles/htdocs/zotel-master/resources/views/page_menu.blade.php ENDPATH**/ ?>

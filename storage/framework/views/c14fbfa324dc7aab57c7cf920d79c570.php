@@ -1,0 +1,1 @@
+<?php /**PATH /Applications/MAMP/htdocs/zotel_ai/resources/views/menus/admin.blade.php ENDPATH**/ ?>
